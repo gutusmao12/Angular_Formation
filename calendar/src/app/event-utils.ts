@@ -8,12 +8,7 @@ export const INITIAL_EVENTS: EventInput[] = [
     id: createEventId(),
     title: 'Payever Technical Assessment',
     start: TODAY_STR
-  },
-  {
-    id: createEventId(),
-    title: 'La La Land',
-    start: TODAY_STR
-  },
+  }
 ];
 
 export function createEventId() {
